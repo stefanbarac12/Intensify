@@ -136,10 +136,6 @@ header button:hover {
   display: block;
 }
 
-.section-3 article:last-child img {
-  height: 213px;
-}
-
 .section-3 article h2 {
   padding: 10px 20px 0;
   color: #25a2c3;
@@ -239,6 +235,37 @@ footer article div span {
   }
   footer article div span {
     color: #f6755e;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1600px) {
+  header p {
+    width: 90%;
+  }
+  .section-1 {
+    padding: 20px;
+  }
+  .section-2 {
+    padding: 20px;
+  }
+  .section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 20px;
+  }
+  .section-3 article {
+    width: 100%;
+    margin: 0 20px;
+  }
+  .section-3 article img {
+    width: 100%;
+    display: block;
+  }
+  footer {
+    padding: 60px;
   }
 }
 /*# sourceMappingURL=style.css.map */
