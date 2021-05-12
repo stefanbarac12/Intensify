@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #767d85;
+  line-height: 1.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("/img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 6rem;
+  color: #25a2c3;
+  font-family: 'Pacifico', sans-serif;
+}
+
+header p {
+  font-size: 1.2rem;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header button {
+  background-color: #f6755e;
+  color: #fff;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+header button:hover {
+  color: #fff;
+  background-color: #25a2c3;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 100px 320px;
+}
+
+.section-1 h2 {
+  font-size: 1.6rem;
+  color: #25a2c3;
+}
+
+.section-1 p {
+  margin: 10px 0;
+}
+
+.section-1 article:nth-child(1) {
+  text-align: right;
+}
+
+.section-1 article:nth-child(2) {
+  background-image: url(../img/prva-sekcija.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 1200px;
+  border-radius: 50%;
+  margin: 0 60px;
+}
+
+.section-2 {
+  padding: 100px 320px;
+  background-color: #f6755e;
+  text-align: center;
+  color: #fff;
+}
+
+.section-2 p {
+  margin: 30px 0;
+  font-style: italic;
+}
+
+.section-2 h3 {
+  font-size: 1.4rem;
+}
+
+.section-2 h4 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 100px 320px;
+}
+
+.section-3 article {
+  width: 30%;
+  margin: 0 20px;
+  border: 2px solid #767d85;
+  border-radius: 5px;
+}
+
+.section-3 article img {
+  width: 100%;
+  display: block;
+}
+
+.section-3 article:last-child img {
+  height: 213px;
+}
+
+.section-3 article h2 {
+  padding: 10px 20px 0;
+  color: #25a2c3;
+  font-size: 1.2rem;
+}
+
+.section-3 article p {
+  padding: 20px;
+}
+
+footer {
+  padding: 100px 320px;
+  background-color: #25a2c3;
+  color: #fff;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+footer article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 100px;
+}
+
+footer article div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+footer article div p {
+  margin-left: 5px;
+}
+
+footer article div span {
+  color: #f6755e;
+}
+
+@media (max-width: 767px) {
+  .section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 30px;
+  }
+  .section-1 article:nth-child(2) {
+    width: 100%;
+    margin: 60px 0;
+  }
+  .section-2 {
+    padding: 30px;
+  }
+  .section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 30px;
+  }
+  .section-3 article {
+    width: 100%;
+    margin: 20px 0;
+  }
+  footer {
+    padding: 30px;
+  }
+  footer article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 0;
+  }
+  footer article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+  }
+  footer article div p {
+    margin-left: 5px;
+  }
+  footer article div span {
+    color: #f6755e;
+  }
+}
+/*# sourceMappingURL=style.css.map */
